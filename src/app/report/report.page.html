@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Report</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <h2 class="reportTittle">5 Users Connected</h2>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://concepto.de/wp-content/uploads/2018/08/persona-e1533759204552.jpg">
+      </ion-avatar>
+      <ion-label>Jacob</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://www.ashoka.org/sites/default/files/styles/medium_1600x1000/public/thumbnails/images/daniela-kreimer.jpg?itok=R89tVtb4">
+      </ion-avatar>
+      <ion-label>Janet</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://static1.abc.es/media/bienestar/2019/10/01/personas-magneticas-k02H--620x349@abc.jpg">
+      </ion-avatar>
+      <ion-label>Rose</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__small/public/media/2019/11/08/perfil_personas_cuesta_perdonar.jpg">
+      </ion-avatar>
+      <ion-label>Jorge</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFogB3c0aNtnWrl9WPR9VHd4RZXjx5ZAT4Dw&usqp=CAU">
+      </ion-avatar>
+      <ion-label>Samanta</ion-label>
+    </ion-item>
+    <h3 class="reportTittle">Users Activity (89%)</h3>
+    <ion-progress-bar value="0.89" class="bar"></ion-progress-bar>
+    <h3 class="reportTittle">Absent users (10%)</h3>
+    <ion-progress-bar value="0.1" class="bar"></ion-progress-bar>
+    <h3 class="reportTittle">Users seeing videos (25%)</h3>
+    <ion-progress-bar value="0.25" class="bar"></ion-progress-bar>
+    <ion-button [routerLink]="['/list']" color="undefined" class="listButton">List</ion-button>
+  </div>
+</ion-content>

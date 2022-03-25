@@ -1,0 +1,31 @@
+#container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.harlem{
+    width: 75%;
+    margin-top: 5%;
+}
+
+.harlemText{
+    color: #31A698;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.listButton {
+    color: #31A698;
+    background-color: white;
+    margin-top: 10%;
+    width: 75%;
+    height: 7%;
+    font-size: x-large;
+}

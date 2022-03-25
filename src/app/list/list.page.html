@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>List</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="https://i.imgur.com/iebBxJc.png" class="navbarImg" />
+  <div id="container">
+    <h1 class="usersTitle">Users</h1>
+    <p [routerLink]="['/details']" class="list">Brooklyn</p>
+    <p [routerLink]="['/details2']" class="list">Manhattan</p>
+    <p [routerLink]="['/details3']" class="list">Harlem</p>
+    <p [routerLink]="['/details4']" class="list">Queens</p>
+  </div>
+  <ion-button [routerLink]="['/home']" color="undefined" class="loginButton2">Login</ion-button>
+  <ion-button [routerLink]="['/report']" color="undefined" class="reportButton">Report</ion-button>
+</ion-content>
